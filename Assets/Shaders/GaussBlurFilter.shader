@@ -1,4 +1,4 @@
-﻿Shader "Hidden/gaussBlurFilter"
+﻿Shader "Hidden/GaussBlurFilter"
 {
     Properties
     {
@@ -13,6 +13,8 @@
 
         Pass
         {
+            Name "BlurPass"
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
