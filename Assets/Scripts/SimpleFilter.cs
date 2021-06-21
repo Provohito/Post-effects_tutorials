@@ -22,6 +22,10 @@ public class SimpleFilter : MonoBehaviour
             _useFilter = !_useFilter;
         }
     }
+    protected virtual void OnUpdate()
+    {
+
+    }
 
 
     private void OnRenderImage(RenderTexture src, RenderTexture dst)
