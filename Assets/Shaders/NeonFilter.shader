@@ -9,7 +9,6 @@
     }
         SubShader
     {
-        // No culling or depth
         Cull Off ZWrite Off ZTest Always
 
         Pass // блок кода шейдера, которые выполняются за один проход

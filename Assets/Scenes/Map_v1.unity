@@ -8724,10 +8724,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 752809549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63169cb53322d964b91eb8195a8bd473, type: 3}
+  m_Script: {fileID: 11500000, guid: a46de068045755e4d8803990a395f686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shader: {fileID: 4800000, guid: 181e6be070a149a44b94445b85457084, type: 3}
+  _shader: {fileID: 4800000, guid: 5bb563ad713f7424a90a79840004b482, type: 3}
 --- !u!1001 &760591746
 PrefabInstance:
   m_ObjectHideFlags: 0
