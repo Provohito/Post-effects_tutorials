@@ -8613,6 +8613,7 @@ GameObject:
   - component: {fileID: 752809553}
   - component: {fileID: 752809554}
   - component: {fileID: 752809555}
+  - component: {fileID: 752809556}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -8692,7 +8693,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752809549}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88f868cf96971224ebebce0aceb3fd67, type: 3}
   m_Name: 
@@ -8724,11 +8725,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 752809549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91c1c3a41d2f5c244a0e132e494969fa, type: 3}
+  m_Script: {fileID: 11500000, guid: fc4bae9f102267149b5be7bccd721f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shader: {fileID: 4800000, guid: 7412fcb737631364cb218e55cdd29a63, type: 3}
-  _pow: 2
+  _shader: {fileID: 4800000, guid: 23ee8868e5e874f4bb6864c3cbf71076, type: 3}
+  _noiseTexture: {fileID: 2800000, guid: 1f7ae3845872d754ea780f7ec0f17bf1, type: 3}
+  _rampTexture: {fileID: 2800000, guid: 99a6142dd9d7c6d499581bf69a823e3b, type: 3}
+--- !u!114 &752809556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752809549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539002996bc3fa54ab6da213d0b34025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sensitivityDepth: 1
+  _sensitivityNormals: 1
+  _edgesOnly: 1
+  _edgesOnlyBgColor: {r: 0, g: 0, b: 0, a: 1}
+  _edgesColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &760591746
 PrefabInstance:
   m_ObjectHideFlags: 0
